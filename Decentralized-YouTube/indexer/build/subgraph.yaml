@@ -1,0 +1,23 @@
+specVersion: 0.0.4
+schema:
+  file: schema.graphql
+dataSources:
+  - kind: ethereum
+    name: Ourtube
+    network: mumbai
+    source:
+      address: "0xB0a4dd1fcb54dc9ffc2168fD568F6c67ECB6315e"
+      abi: Ourtube
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.6
+      language: wasm/assemblyscript
+      entities:
+        - VideoUploaded
+      abis:
+        - name: Ourtube
+          file: Ourtube/abis/Ourtube.json
+      eventHandlers:
+        - event: VideoUploaded(uint256,string,string,string,string,string,string,bool,string,address)
+          handler: handleVideoUploaded
+      file: Ourtube/Ourtube.wasm
