@@ -3,16 +3,13 @@
 <br />
 <div align="center">
  
-    <img src="https://raw.githubusercontent.com/suhailkakar/Decentralized-YouTube/version-1/logo.png" alt="Logo" width="110" height="80">
-
-
 <h3 align="center">OurTube — It is YouTube but decentralized</h3>
 
 </div>
 
 ## About The Project
 
-[![Ourtube][product-screenshot]](https://twitter.com/suhailkakar)
+[![Ourtube][product-screenshot]]
 
 OurTube is a YouTube Clone built on top of Polygon network and The Graph, that allows users to create, share and watch videos, without worrying about their privacy.
 
