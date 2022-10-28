@@ -2,9 +2,9 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/suhailkakar/Decentralized-YouTube">
+ 
     <img src="https://raw.githubusercontent.com/suhailkakar/Decentralized-YouTube/version-1/logo.png" alt="Logo" width="110" height="80">
-  </a>
+
 
 <h3 align="center">OurTube — It is YouTube but decentralized</h3>
 
